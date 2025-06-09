@@ -61,7 +61,7 @@ I definitely want to keep developing interfaces using the rem unit - it makes ma
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MariaCMontO](https://github.com/MariaCMontO)
 
 
 ## Acknowledgments
