@@ -1,0 +1,66 @@
+:root {
+    --white: #ffffff;
+    --slate-900: #1F314F;
+    --slate-500: #68778D;
+    --slate-300: #D5E1EF;
+    --blue-600: #2C7DFA;
+    --blue-500: #3685FF;
+    --font: "Outfit", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* El tamaño base del html es 16px, se usa un 62,5% para que sea 10px, así 1rem= 10px= tamaño base  */
+}
+
+body {
+    background-color: var(--slate-300);
+    font-family: var(--font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-principal {
+    background-color: var(--white);
+    width: 32rem;
+    height: 49.9rem;
+    padding: 0 1.6rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 28.8rem;
+    height: 28.8rem;
+    border-radius: 1rem;
+    margin-top: 1.6rem;
+}
+
+.contenedor-principal-texto {
+    text-align: center;
+    padding: 0 1.6rem;
+}
+
+.contenedor-principal-texto .texto-negrita {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2.4rem;
+    color: var(--slate-900);
+}
+
+.contenedor-principal-texto .texto-regular {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1.6rem;
+    color: var(--slate-500);
+}
